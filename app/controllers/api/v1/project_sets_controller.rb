@@ -1,4 +1,5 @@
 class Api::V1::ProjectSetsController < ApplicationController
+	skip_before_action :verify_authenticity_token  
 	helper_method :number_to_currency
 	# SET EXAMPLE
 
