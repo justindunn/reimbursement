@@ -22,11 +22,12 @@
 	There are 2 ways to work with this app:
 
 	Rails Console:
-		rails c
+	
+			rails c
 			Project.process_all_sets # processes all projects
 			Project.process_set(set_token) # pass the set_token to process a project set
 
-			or
+	or
 
 			the service class has all the goodies, so you can just use this instead:
 
